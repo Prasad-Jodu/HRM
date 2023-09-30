@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Command line suite]" verbose="0">
+  <test thread-count="5" name="Command line test(failed)" verbose="0">
+    <classes>
+      <class name="com.AdminModuleTest.CreateDoctorSpecializationTest">
+        <methods>
+          <include name="condigAC"/>
+          <include name="doctorSpcl"/>
+          <include name="configAS"/>
+          <include name="configBC"/>
+          <include name="configBS"/>
+          <include name="configAM"/>
+          <include name="configBM"/>
+        </methods>
+      </class> <!-- com.AdminModuleTest.CreateDoctorSpecializationTest -->
+      <class name="testNG.AddDoctorSpclTest">
+        <methods>
+          <include name="addDoctorSpcl"/>
+        </methods>
+      </class> <!-- testNG.AddDoctorSpclTest -->
+      <class name="practice.SampleRetryTest">
+        <methods>
+          <include name="condigAC"/>
+          <include name="configAS"/>
+          <include name="configBC"/>
+          <include name="configBS"/>
+          <include name="configAM"/>
+          <include name="retrytest"/>
+          <include name="configBM"/>
+        </methods>
+      </class> <!-- practice.SampleRetryTest -->
+      <class name="testNG.PracticeTest">
+        <methods>
+          <include name="editTest"/>
+          <include name="createTest"/>
+        </methods>
+      </class> <!-- testNG.PracticeTest -->
+      <class name="com.AdminModuleTest.DeleteDoctorTest">
+        <methods>
+          <include name="deleteDoctorTest"/>
+        </methods>
+      </class> <!-- com.AdminModuleTest.DeleteDoctorTest -->
+      <class name="testNG.VtigerLoginTest">
+        <methods>
+          <include name="login" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testNG.VtigerLoginTest -->
+      <class name="practice.ReadDataFromCmdTest">
+        <methods>
+          <include name="cmdTest"/>
+        </methods>
+      </class> <!-- practice.ReadDataFromCmdTest -->
+      <class name="com.DoctorModuleTest.AddPatientUsingGenericUtilityTest">
+        <methods>
+          <include name="condigAC"/>
+          <include name="configAS"/>
+          <include name="configBC"/>
+          <include name="configBS"/>
+          <include name="configAM"/>
+          <include name="configBM"/>
+          <include name="addPatientTest"/>
+        </methods>
+      </class> <!-- com.DoctorModuleTest.AddPatientUsingGenericUtilityTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
