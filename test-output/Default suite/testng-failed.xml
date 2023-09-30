@@ -3,17 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.AdminModuleTest.CreateDoctorSpecializationTest">
+      <class name="testNG.Demo">
         <methods>
           <include name="condigAC"/>
-          <include name="doctorSpcl"/>
           <include name="configAS"/>
           <include name="configBC"/>
           <include name="configBS"/>
           <include name="configAM"/>
           <include name="configBM"/>
+          <include name="demo"/>
         </methods>
-      </class> <!-- com.AdminModuleTest.CreateDoctorSpecializationTest -->
+      </class> <!-- testNG.Demo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

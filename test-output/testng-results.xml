@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-30T12:13:56 IST" name="Default suite" finished-at="2023-09-30T12:14:07 IST" duration-ms="10678">
+  <suite started-at="2023-09-30T15:11:02 IST" name="Default suite" finished-at="2023-09-30T15:11:02 IST" duration-ms="51">
     <groups>
     </groups>
-    <test started-at="2023-09-30T12:13:56 IST" name="Default test" finished-at="2023-09-30T12:14:07 IST" duration-ms="10678">
-      <class name="test.ProkabaddiTest">
-        <test-method signature="prokabaddiTest()[pri:0, instance:test.ProkabaddiTest@738dc9b]" started-at="2023-09-30T12:13:56 IST" name="prokabaddiTest" finished-at="2023-09-30T12:14:07 IST" duration-ms="10600" status="PASS">
+    <test started-at="2023-09-30T15:11:02 IST" name="Default test" finished-at="2023-09-30T15:11:02 IST" duration-ms="51">
+      <class name="testNG.Demo">
+        <test-method signature="demo()[pri:0, instance:testNG.Demo@20140db9]" started-at="2023-09-30T15:11:02 IST" name="demo" finished-at="2023-09-30T15:11:02 IST" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- prokabaddiTest -->
-      </class> <!-- test.ProkabaddiTest -->
+        </test-method> <!-- demo -->
+      </class> <!-- testNG.Demo -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

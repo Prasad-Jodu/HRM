@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 import com.HMS.GenericUtilities.BaseClass;
 
-public class Demo extends BaseClass{
+public class Demo{
 	
 	@Test
 	public void demo() {

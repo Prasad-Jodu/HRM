@@ -23,7 +23,7 @@ public class CreateDoctorSpecializationTest extends BaseClass{
 		AdminDashboardPage adb=new AdminDashboardPage(driver);
 		
 		adb.clickOnDoctorsLink();
-		 Assert.fail();
+		// Assert.fail();
 		adb.clickOnDoctorSpclLink();
 	
 		AddDoctorSpecializationPage adsp=new AddDoctorSpecializationPage(driver);
