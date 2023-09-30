@@ -77,7 +77,7 @@
 	  
   </dependencies>
   
-<!--   <profiles>
+   <profiles>
 	  <profile>
 		  <id>Smoke</id>
 		  
@@ -101,7 +101,7 @@
 			  </pluginManagement>
 		  </build>
 	  </profile>
-  </profiles> -->
+  </profiles> 
   
   
   
