@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-30T15:11:02 IST" name="Default suite" finished-at="2023-09-30T15:11:02 IST" duration-ms="51">
+  <suite started-at="2023-09-30T15:49:53 IST" name="Default suite" finished-at="2023-09-30T15:49:53 IST" duration-ms="60">
     <groups>
     </groups>
-    <test started-at="2023-09-30T15:11:02 IST" name="Default test" finished-at="2023-09-30T15:11:02 IST" duration-ms="51">
-      <class name="testNG.Demo">
-        <test-method signature="demo()[pri:0, instance:testNG.Demo@20140db9]" started-at="2023-09-30T15:11:02 IST" name="demo" finished-at="2023-09-30T15:11:02 IST" duration-ms="9" status="PASS">
+    <test started-at="2023-09-30T15:49:53 IST" name="Default test" finished-at="2023-09-30T15:49:53 IST" duration-ms="60">
+      <class name="jenkinsPractice.TrailTest">
+        <test-method signature="trailTest()[pri:0, instance:jenkinsPractice.TrailTest@20140db9]" started-at="2023-09-30T15:49:53 IST" name="trailTest" finished-at="2023-09-30T15:49:53 IST" duration-ms="11" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- demo -->
-      </class> <!-- testNG.Demo -->
+        </test-method> <!-- trailTest -->
+      </class> <!-- jenkinsPractice.TrailTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
