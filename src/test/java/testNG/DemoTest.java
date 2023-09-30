@@ -4,10 +4,10 @@ import org.testng.annotations.Test;
 
 import com.HMS.GenericUtilities.BaseClass;
 
-public class Demo{
+public class DemoTest{
 	
 	@Test
-	public void demo() {
+	public void demoTest() {
 		System.out.println("--Demo--");
 	}
 
