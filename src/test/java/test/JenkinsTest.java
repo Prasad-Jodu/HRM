@@ -6,6 +6,7 @@ public class JenkinsTest {
 	@Test
 	public void jenkinsTest() {
 		System.out.println("@@@");
+		System.out.println("#####");
 	}
 
 }
